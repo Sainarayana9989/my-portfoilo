@@ -1,0 +1,158 @@
+body {
+    font-family: "Barlow Condensed", sans-serif;
+    color: #242424;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.navbar {
+    background-color: #242424;
+
+}
+
+.navbar-brand {
+    display: flex;
+    padding: 0.5rem;
+    flex-flow: column;
+}
+
+
+.img-profile {
+    max-width: 12rem;
+    max-height: 12rem;
+    border: 0.3rem solid #1873cde0;
+    border-radius: 100%;
+}
+
+#sideNav {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 18rem;
+    height: 100vh;
+    place-content: center;
+}
+
+.resume-section {
+    padding-top: 3rem !important;
+}
+
+h1,
+.mobile-name {
+    font-family: "Just Another Hand", cursive;
+    font-size: 4rem;
+    letter-spacing: 0.1rem;
+}
+
+h2,
+h4,
+h5,
+h6,
+#sideNav {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+
+.content {
+    padding-left: 18rem;
+}
+
+.contact-form {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group {
+    width: 50%;
+    padding-left: 0;
+}
+
+.btn {
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    color: white;
+    width: 50%;
+    border: none;
+}
+.progress-bar,
+.btn {
+background-color: #1873cde0;
+}
+
+
+.card{
+    border: none;
+}
+a{
+    color: #1873cde0;
+}
+.mobile-img{
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+}
+div.p{
+    width: 30%;
+    background-color: black;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-bottom: 25px;
+
+}
+.c{
+    text-align: center;
+    padding: 10px 20px;
+}
+
+h1::before {  
+    transform: scaleX(0);
+    transform-origin: bottom right;
+  }
+  
+  h1:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  h1::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background: hsl(200 100% 80%);
+    z-index: -1;
+    transition: transform .3s ease;
+  }
+  
+  h1 {
+    position: relative;
+    font-size: 5rem;
+  }
+  
+  html {
+    block-size: 100%;
+    inline-size: 100%;
+  }
+  
+  body {
+    min-block-size: 100%;
+    min-inline-size: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    display: grid;
+    place-content: center;
+    font-family: system-ui, sans-serif;
+  }
+  @media (orientation: landscape) {
+    body {
+      grid-auto-flow: column;
+    }
+  }
+  
+  
+ 
